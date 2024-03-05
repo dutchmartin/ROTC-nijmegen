@@ -1,0 +1,81 @@
+########################## hero area ##########################
+hero:
+  title: "Wij zijn team Nijmegen"
+
+  # animated text loop
+  occupations:
+    - 'Wedstrijdzeilers'
+    - 'Avonturiers'
+    - 'Studenten'
+
+  # hero background image
+  bg_image: 'images/background.jpg'
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/bg-small.jpg'
+
+########################### About ##################################
+about:
+  enable: true
+#  image: 'images/profile.jpg'
+  title: 'Over ons'
+  content: Wij zijn Team Nijmegen, een team dat van 15 april tot en met 21 april 2024 aan de 35e editie van de Race of the Classics (ROTC) deel zal nemen. De ROTC is het grootste studentenevenement voor zeilers in Europa, waarbij 19 klassieke schepen, bemand met 500 studenten, de oversteek maken naar Engeland. Elk team is gekoppeld aan een hogeschool of universiteit, vandaar dat ons team bestaat uit enthousiaste zeilers die aan de Hogeschool Arnhem Nijmegen of de Radboud universiteit studeren. 
+  button:
+    enable: false
+    label: 'Download sponsorbrochure'
+    link: #
+    icon: 'fa-download'
+
+###########################3 Experience ##############################
+experience:
+  enable: false
+  title: 'EXPERIENCE'
+  experience_list:
+    - name: Web Developer
+      company: Freelance
+      duration: '2020-Current'
+      content: I make websites.
+
+    - name: Private Detective
+      company: Psych
+      duration: '2019-2020'
+      content: Okay. This is hard to explain but I’m going to give it a shot. You and I are opening our own private detective agency.
+
+    - name: Pharmaceutical Salesman
+      company: South Coast Pharmaceuticals
+      duration: '2012-2018'
+      content: We are not bounty hunters, Shawn. I am a pharmaceutical salesman. And Lassiter made it very clear! He said in no uncertain terms. These are certain terms, Shawn! Certain terms!
+
+############################### Skill #################################
+skill:
+  enable: false
+  title: 'SOME SKILLS'
+  showpercent: false
+  skill_list:
+    - name: 'React'
+      percentage: '85%'
+
+    - name: 'Detecting'
+      percentage: '93%'
+
+    - name: 'Selling'
+      percentage: '25%'
+
+    - name: 'Yelling'
+      percentage: '100%'
+
+######################### funfacts #############################3
+funfacts:
+  enable: true
+  funfacts_list:
+    - name: 'Zeilers'
+      image: 'images/icons/user.svg'
+      count: '12'
+
+    - name: 'Uur tot de start'
+      image: 'images/icons/clock.svg'
+      count: 'Math.round((Date.now()-1713175200)/3600000)'
+
+
+############################# portfolio ################################
+portfolio:
+  enable: false
