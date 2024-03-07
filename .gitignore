@@ -12,4 +12,8 @@ hugo.linux
 # Temporary lock file while building
 /.hugo_build.lock/
 
+# Exclude downloadable dependacies
 node_modules
+
+# IDE files
+.idea
