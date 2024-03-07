@@ -17,3 +17,6 @@ node_modules
 
 # IDE files
 .idea
+
+# Themes are included by the github build script
+themes
