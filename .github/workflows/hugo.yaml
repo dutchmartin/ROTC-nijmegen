@@ -48,7 +48,7 @@ jobs:
       - name: Checkout tools repo
         uses: actions/checkout@v4
         with:
-           repository: tylerlaws0n/port-hugo
+           repository: dutchmartin/port-hugo
            path: themes/port-hugo
       - name: Setup Pages
         id: pages
